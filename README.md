@@ -95,6 +95,20 @@ Portfolio: https://ruthokolo.com
 
 ---
 
+## 🔐 Security & Privacy
+
+CleerSplit is built with security-first defaults.
+
+- **No secrets in Git**: API keys, Supabase credentials, and environment files are excluded via `.gitignore`.
+- **Environment-based configuration**: Sensitive values are loaded from `.env` / build-time config, never hardcoded.
+- **Least-privilege access**: The app uses **public/anonymous** client keys only. Admin/service-role keys are kept server-side and never shipped in the iOS app.
+- **Data protection**: Planned backend policies (Supabase RLS) will ensure users can only access their own data.
+- **Responsible logging**: No sensitive values are printed to console logs in production builds.
+
+If you believe you’ve found a security issue, please open a GitHub issue with **minimal details** and label it `security`.
+
+
 ## 📄 License
 
-MIT License — see `LICENSE` for details.
+MIT License — see [LICENSE](LICENSE) for details.
+
