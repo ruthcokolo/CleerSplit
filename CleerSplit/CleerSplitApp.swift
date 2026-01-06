@@ -11,7 +11,7 @@ import SwiftUI
 struct CleerSplitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CleersplitScreen()
         }
     }
 }
