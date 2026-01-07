@@ -2,7 +2,7 @@
 //  LoginView.swift
 //  CleerSplit
 //
-//  Created by Chidinma on 2025-12-29.
+//  Created by Ruth Okolo on 2025-12-29.
 //
 
 import SwiftUI

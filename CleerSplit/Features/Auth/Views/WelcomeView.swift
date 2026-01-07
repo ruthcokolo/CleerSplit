@@ -2,7 +2,7 @@
 //  WelcomeView.swift
 //  CleerSplit
 //
-//  Created by Chidinma on 2026-01-03.
+//  Created by Ruth Okolo on 2026-01-03.
 //
 
 import SwiftUI
